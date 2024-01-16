@@ -8,4 +8,9 @@ public class State {
         this.name = name;
         this.country = country;
     }
+
+    public State(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 }
